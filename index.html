@@ -11,8 +11,30 @@
     <li><a href="products.html">Our Products</a></li>
     <li><a href="services.html">Our Services</a></li>
     <li><a href="contact.html">Contact Us</a></li>
-  </ul>
+  </ul>  
 </nav>
+<form action="mailto:myaccount@mydomain.com">
+<p>
+<i>Please select the product you are interested in.</i>
+</p>
+<select name="product">
+<option value="widget1">Widget #1</option>
+<option value="widget2">Widget #2</option>
+<option value="widget3">Widget #3</option>
+</select>
+<p>
+<i>Please enter the text of your message in the field that follows.</i>
+</p>
+<textarea 
+  name="body" 
+  rows="10" 
+  cols="60"></textarea>
+
+<p>
+<input type="submit" name="send" value="Send Your Message"/>
+<input type="submit" name="cancel" value="Cancel - Never Mind"/>
+</p>
+</form>
   <div>
     <script>
   (function() {
